@@ -1,0 +1,32 @@
+body
+    {
+        background-color: blueviolet;
+    }
+
+a:link 
+    {
+        color:aquamarine;
+        background-color: beige;
+        text-decoration: none;
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Courier New', Courier, monospace;
+    }  
+a:visited
+    {
+        color:aliceblue;
+        background-color: rgb(192, 86, 137);
+        text-decoration: none;
+    }
+a:hover
+    {
+        color: cornflowerblue;
+        background-color: deeppink;
+        text-decoration: underline;
+    }
+a:active
+    {
+        color: darkmagenta;
+        background-color: darkgreen;
+        text-decoration: none;
+    }

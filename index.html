@@ -1,0 +1,92 @@
+<html>
+    <head>
+
+      <title>Welcome to My Homepage</title>
+      <body background="picture/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp"></body>
+     
+
+        <audio controls autoplay>
+                <source src="audio/NewJeans - Hype Boy _ Instrumental.mp3" type="audio/ogg">
+                <source src="audio/NewJeans - Hype Boy _ Instrumental.mp3" type="audio/mpeg">
+               
+        </audio>
+        
+        <h1 style="text-align:left;"><font size="3"</font>
+        
+        <link rel="stylesheet" type="text/css" href="clock_style.css">
+        <script type="text/javascript">
+          window.onload = setInterval(clock,1000);
+      
+          function clock()
+          {
+            var d = new Date();
+            
+            var date = d.getDate();
+            
+            var month = d.getMonth();
+            var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+            month=montharr[month];
+            
+            var year = d.getFullYear();
+            
+            var day = d.getDay();
+            var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            day=dayarr[day];
+            
+            var hour =d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+          
+            document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+            document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+          }
+        </script>
+      </head>
+      
+      <body>
+         <p id="date"></p>
+         <p id="time"></p>
+      
+       </body>
+    </h1>
+    
+    <body>
+    <p>
+        <div style="text-align:center;">
+        <img src="picture/UiTM_Universiti_Teknologi_MARA_logo.png" width="500">
+
+        <h1> <font size="20px"><b>WELCOME TO MY HOMEPAGE</b></font></h1>
+        
+        <link rel="stylesheet" href="css/style.css">
+        <a href="index.html"><img src="picture/button (1).png" width="157"></a>
+        <a href="biodata.html"><img src="picture/button.png" width="140"></a></h1>
+        <a href="education.html"><img src="picture/button (5).png" width="157"></a>
+        <a href="experience.html"><img src="picture/button (4).png" width="160"></a>
+        <a href="gallery.html"><img src="picture/button (2).png" width="150"> </a>
+        <a href="family.html"><img src="picture/button (6).png" width="157"></a>
+        <a href="friends.html"><img src="picture/button (7).png" width="157"></a>
+        
+    
+        <br>
+        <br>
+
+        <video control autoplay height="500" controls>
+            <source src="video/video homepage.mp4" type="video/mp4">
+            <source src="video/video homepage.mp4" type="video/ogg">
+        </video>
+    
+    
+    
+    </div>
+
+        
+        <br>
+
+       
+    </p>
+   </body>
+
+   
+
+</head>
+</html>
